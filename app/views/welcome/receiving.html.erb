@@ -1,0 +1,11 @@
+<script type="text/javascript" charset="utf-8">
+    App.room = App.cable.subscriptions.create("BroadcastChannel", {
+        received: function(data) {
+            $('#messages').empty();
+            $('#messages').append(data['message']);
+        }
+    });
+</script>
+<h1>Action Cable Example</h1>
+
+<div id="messages"></div>
