@@ -1,0 +1,18 @@
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){
+    /*
+    $('#broadcast_text').keyup(function(){
+        var data = $('#broadcast_text').val();
+        $.post("/send_data", {data: data})
+      });
+    */
+    setInterval(function(){
+        var data = $('#broadcast_text').val();
+        $.post("/send_data", {data: data})
+    }, 1000);
+});
+
+
+</script>
+<h2>Enter Text</h2>
+<%=text_area_tag :broadcast_text, "", style:"width:800px; height:400px;border:2px"%>
