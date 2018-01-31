@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="748f276c-6ae7-4c64-aac2-06e14ce3e086" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sct_action.iml" afterPath="$PROJECT_DIR$/.idea/sct_action.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change beforePath="$PROJECT_DIR$/app/channels/broadcast_channel.rb" afterPath="$PROJECT_DIR$/app/channels/broadcast_channel.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/views/welcome/receiving.html.erb" afterPath="$PROJECT_DIR$/app/views/batches/receiving.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/welcome/sending.html.erb" afterPath="$PROJECT_DIR$/app/views/batches/sending.html.erb" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/batches.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/batches.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/batches_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/helpers/batches_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/batch.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/batch_user.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/_batch.json.jbuilder" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/_form.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/edit.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/index.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/index.json.jbuilder" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/new.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/show.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/show.json.jbuilder" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180131031812_devise_create_users.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180131032449_create_batches.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180131032455_create_batch_users.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/controllers/batches_controller_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/batch_users.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/batches.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/batch_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/batch_user_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/user_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/system/batches_test.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -412,12 +431,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517282549890</updated>
-      <workItem from="1517282551146" duration="11969000" />
+      <workItem from="1517282551146" duration="12167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11969000" />
+    <option name="totallyTimeSpent" value="12167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="700" extended-state="0" />
