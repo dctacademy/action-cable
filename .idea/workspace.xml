@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="748f276c-6ae7-4c64-aac2-06e14ce3e086" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/batches.coffee" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/batches.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/batches_controller.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/helpers/batches_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/batch.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/batch_user.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/_batch.json.jbuilder" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/_form.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/edit.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/index.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/index.json.jbuilder" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/new.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/show.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/batches/show.json.jbuilder" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180131031812_devise_create_users.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180131032449_create_batches.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180131032455_create_batch_users.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/controllers/batches_controller_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/batch_users.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/batches.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/batch_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/batch_user_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/user_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/system/batches_test.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/batches_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/batches_controller.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -57,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="broadcast_channel.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="broadcast_channel.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/channels/broadcast_channel.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -87,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="batches_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="batches_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/batches_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,12 +133,12 @@
         <option value="$PROJECT_DIR$/app/models/batch.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/channels/application_cable/connection.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/batches_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/batches/sending.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/batches.coffee" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/batches/receiving.html.erb" />
         <option value="$PROJECT_DIR$/app/channels/broadcast_channel.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/batches_controller.rb" />
       </list>
     </option>
   </component>
@@ -431,12 +403,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517282549890</updated>
-      <workItem from="1517282551146" duration="12167000" />
+      <workItem from="1517282551146" duration="12254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12167000" />
+    <option name="totallyTimeSpent" value="12254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="700" extended-state="0" />
@@ -651,14 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/batches_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -695,6 +659,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/batches_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>

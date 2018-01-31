@@ -62,8 +62,7 @@ class BatchesController < ApplicationController
   end
 
   def sending
-    Batch.all.update_all(is_broadcasting:false)
-    @batch.update(is_broadcasting: true)
+
   end
 
   def receiving
