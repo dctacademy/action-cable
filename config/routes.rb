@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
-  root 'welcome#index'
+  root 'batches#index'
+  resources :batches
+  devise_for :users
   post "/send_data" => "welcome#send_data"
-  get 'receiving' => "welcome#receiving"
-  get 'sending' => "welcome#sending"
+  get '/batches/:id/receiving' => "batches#receiving"
+  get '/batches/:id/sending' => "batches#sending"
 end

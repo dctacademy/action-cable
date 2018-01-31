@@ -1,10 +1,12 @@
 <script type="text/javascript" charset="utf-8">
-    App.room = App.cable.subscriptions.create("BroadcastChannel", {
+    App.room = App.cable.subscriptions.create({channel:"BroadcastChannel",room: "broadcast_channel_<%=@batch.id%>"}, {
         received: function(data) {
             $('#messages').empty();
             $('#messages').append(data['message']);
         }
     });
+
+    // ---
 </script>
 <h1>Action Cable Example</h1>
 

@@ -8,7 +8,8 @@ $(document).ready(function(){
     */
     setInterval(function(){
         var data = $('#broadcast_text').val();
-        $.post("/send_data", {data: data})
+        var batch = $('#batch_id').val();
+        $.post("/send_data", {data: data, batch: batch})
     }, 1000);
 });
 
@@ -16,3 +17,4 @@ $(document).ready(function(){
 </script>
 <h2>Enter Text</h2>
 <%=text_area_tag :broadcast_text, "", style:"width:800px; height:400px;border:2px"%>
+<%= hidden_field_tag :batch_id, @batch.id%>
